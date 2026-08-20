@@ -1,31 +1,88 @@
-<body>
-    <header>
-    <h1>Blog de Tecnología de 3º Año</h1>
-    </header>
-    <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Noticias</a>
-    <a href="#">Contacto</a>
-</nav>
-<main>
-<section>
-<h2>Últimas Noticias</h2>
-<article>
-<h3>¿Qué es HTML5?</h3>
-<p>Es la quinta revisión del lenguaje HTML, la cual introdujo las
-etiquetas semánticas...</p>
-</article>
-</section>
-</main>
-<footer>
-<p>2026 - Taller de Informática</p>
-</footer>
-</body>
-<style>
-    header { background-color: #00ff00; padding: 15px; text-align: center; }
-    nav { background-color: #ffffff; padding: 10px; }
-    nav a { color: rgb(255, 255, 255); margin-right: 15px; text-decoration: none; }
-    main { background-color: #ffffff; padding: 20px; }
-    section { background-color: #00ff00; padding: 15px; margin-bottom: 15px; }
-    footer { background-color: #ffffff; color: rgb(25, 0, 255); text-align: center; padding: 10px; }
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Semántica - Blog de Tecnología</title>
+
+    <!-- Estilos CSS corregidos -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+        }
+        header { 
+            background-color: #2c3e50; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        nav { 
+            background-color: #34495e; 
+            padding: 12px; 
+            text-align: center; 
+        }
+        /* Corregido: texto blanco sobre fondo oscuro para que sea legible */
+        nav a { 
+            color: #ffffff; 
+            margin: 0 15px; 
+            text-decoration: none; 
+            font-weight: bold; 
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        main { 
+            background-color: #ffffff; 
+            max-width: 800px; 
+            margin: 20px auto; 
+            padding: 20px; 
+            border-radius: 8px; 
+        }
+        section { 
+            background-color: #ecf0f1; 
+            padding: 15px; 
+            margin-bottom: 15px; 
+            border-left: 5px solid #3498db; 
+            border-radius: 5px; 
+        }
+        footer { 
+            background-color: #2c3e50; 
+            color: white; 
+            text-align: center; 
+            padding: 15px; 
+            margin-top: 20px; 
+        }
     </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blog de Tecnología de 3º Año</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Volver al Portafolio</a>
+        <a href="#">Noticias</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Últimas Noticias</h2>
+            <article>
+                <h3>¿Qué es HTML5?</h3>
+                <p>HTML5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Matias Chen - Taller de Informática</p>
+    </footer>
+
+</body>
+</html>
